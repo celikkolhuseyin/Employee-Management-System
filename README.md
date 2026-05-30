@@ -1,6 +1,6 @@
 # Employee Management System
 
-Computer Engineering Graduation Thesis Project - Web-Based Employee Management System.
+A web-based Employee Management System developed with PHP, MySQL, MySQLi, Bootstrap and JavaScript as a Computer Engineering graduation project.
 
 ## Technologies
 - HTML5, CSS3, Bootstrap 5
@@ -27,9 +27,19 @@ Computer Engineering Graduation Thesis Project - Web-Based Employee Management S
 2. Open phpMyAdmin.
 3. Import `database/employee_management.sql`.
 4. Open `http://localhost/employee-management-system/`.
-5. Login with:
-   - E-mail: `admin@ems.local`
-   - Password: `admin123`
+5. Demo Users
+
+Administrator:
+    E-mail: admin@ems.local
+    Password: admin123
+
+Manager:
+    E-mail: manager@ems.local
+    Password: manager123
+
+Employee:
+    E-mail: employee@ems.local
+    Password: employee123
 
 ## Requirement Checklist
 - Separate CSS file: `assets/css/style.css`
@@ -39,5 +49,5 @@ Computer Engineering Graduation Thesis Project - Web-Based Employee Management S
 - CRUD: employees, departments, roles, work records, documents
 - Trigger: employee insert/update/delete log triggers
 - Stored procedure: `sp_department_employee_summary()`
-- JOIN operations: dashboard, employee list, attendance report
+- JOIN operations: dashboard, employee list, work records, documents, reports/join_report.php
 - Form elements: text, textarea, radio, checkbox, select, multiple select, file input, button
