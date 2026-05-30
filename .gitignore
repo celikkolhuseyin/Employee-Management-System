@@ -1,0 +1,17 @@
+# Uploaded runtime files
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Environment files
+.env
