@@ -193,21 +193,22 @@ include __DIR__ . '/../includes/navbar.php';
     <div class="table-responsive">
         <table class="table table-modern">
             <thead>
-                <tr>
-                    <th>Employee</th>
-                    <th>Code</th>
-                    <th>Department</th>
-                    <th>Roles</th>
-                    <th>Phone</th>
-                    <th>Status</th>
-                    <th class="text-end">Actions</th>
-                </tr>
+               <tr>
+    <th>Employee</th>
+    <th>Code</th>
+    <th>Department</th>
+    <th>Roles</th>
+    <th>Phone</th>
+    <th>Salary</th>
+    <th>Status</th>
+    <th class="text-end">Actions</th>
+</tr>
             </thead>
 
             <tbody>
                 <?php if ($employees->num_rows === 0): ?>
                     <tr>
-                        <td colspan="7" class="text-center text-muted py-5">
+                        <td colspan="8" class="text-center text-muted py-5">
                             <i class="bi bi-search d-block fs-2 mb-2"></i>
                             No employees found.
                         </td>
@@ -247,13 +248,17 @@ include __DIR__ . '/../includes/navbar.php';
 
                         <td><?php echo e($e['phone']); ?></td>
 
-                        <td>
-                            <?php if ((int)$e['is_active'] === 1): ?>
-                                <span class="status-pill status-active">Active</span>
-                            <?php else: ?>
-                                <span class="status-pill status-inactive">Inactive</span>
-                            <?php endif; ?>
-                        </td>
+<td>
+    <strong><?php echo e(number_format((float)$e['salary'], 2)); ?> ₺</strong>
+</td>
+
+<td>
+    <?php if ((int)$e['is_active'] === 1): ?>
+        <span class="status-pill status-active">Active</span>
+    <?php else: ?>
+        <span class="status-pill status-inactive">Inactive</span>
+    <?php endif; ?>
+</td>
 
                         <td>
                             <div class="action-buttons justify-content-end">
