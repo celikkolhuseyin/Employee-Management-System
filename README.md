@@ -27,9 +27,19 @@ A web-based Employee Management System developed with PHP, MySQL, MySQLi, Bootst
 2. Open phpMyAdmin.
 3. Import `database/employee_management.sql`.
 4. Open `http://localhost/employee-management-system/`.
-5. Login with:
-   - E-mail: `admin@ems.local`
-   - Password: `admin123`
+5. Demo Users
+
+Administrator:
+    E-mail: admin@ems.local
+    Password: admin123
+
+Manager:
+    E-mail: manager@ems.local
+    Password: manager123
+
+Employee:
+    E-mail: employee@ems.local
+    Password: employee123
 
 ## Requirement Checklist
 - Separate CSS file: `assets/css/style.css`
