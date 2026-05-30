@@ -1,6 +1,6 @@
 # Employee Management System
 
-Computer Engineering Graduation Thesis Project - Web-Based Employee Management System.
+A web-based Employee Management System developed with PHP, MySQL, MySQLi, Bootstrap and JavaScript as a Computer Engineering graduation project.
 
 ## Technologies
 - HTML5, CSS3, Bootstrap 5
