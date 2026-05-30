@@ -49,5 +49,5 @@ Employee:
 - CRUD: employees, departments, roles, work records, documents
 - Trigger: employee insert/update/delete log triggers
 - Stored procedure: `sp_department_employee_summary()`
-- JOIN operations: dashboard, employee list, attendance report
+- JOIN operations: dashboard, employee list, work records, documents, reports/join_report.php
 - Form elements: text, textarea, radio, checkbox, select, multiple select, file input, button
